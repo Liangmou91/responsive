@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>响应式布局 宽度变化背景变化</title>
+    <style>
+        div{ width: 100%; height: 800px; background: #ff3;}
+        @media screen and (min-width: 768px ) and (max-width: 1024px){  /*完整写法*/
+            div{ background: #f00; }
+        }
+
+        @media (max-width: 768px){  /*简单写法*/
+            div{ background: #0ff; }
+        }
+    </style>
+
+
+</head>
+<body>
+<div></div>
+</body>
+</html>
